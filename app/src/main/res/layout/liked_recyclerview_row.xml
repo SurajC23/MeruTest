@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/dp10"
+    android:layout_marginBottom="@dimen/dp10"
+    app:cardElevation="@dimen/dp5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/imgLike"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tvLikeTitle"
+            android:layout_above="@id/tvLikePublisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"/>
+
+        <TextView android:id="@+id/tvLikePublisher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginBottom="@dimen/dp10"/>
+
+        <ImageView
+            android:id="@+id/ivDislike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dislike_white"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/dp10"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

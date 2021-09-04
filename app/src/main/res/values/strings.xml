@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MeruTest</string>
+    <string name="liked_recipes">Liked Recipes</string>
+    <string name="saved_recipes">Saved Recipes</string>
+    <string name="company_name">Meru Mobility Tech Pvt. Ltd</string>
+    <string name="no_liked_receipes">There is no liked recipes\nplease add some</string>
+    <string name="no_saved_receipes">There is no saved recipes\nplease add some</string>
+
+    <string name="potato">Potato</string>
+    <string name="chicken">Chicken</string>
+    <string name="fish">Fish</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
